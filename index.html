@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Agency | Boost Your Online Presence</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white shadow-md z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-blue-600">DigiGrowth</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#" class="text-gray-600 hover:text-blue-600">Home</a>
+                <a href="#" class="text-gray-600 hover:text-blue-600">Services</a>
+                <a href="#" class="text-gray-600 hover:text-blue-600">About</a>
+                <a href="#" class="text-gray-600 hover:text-blue-600">Contact</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden">
+                <i class="fas fa-bars text-gray-600"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden fixed w-full bg-white shadow-md mt-16 z-40">
+        <div class="container mx-auto px-6 py-4 flex flex-col space-y-4">
+            <a href="#" class="text-gray-600 hover:text-blue-600">Home</a>
+            <a href="#" class="text-gray-600 hover:text-blue-600">Services</a>
+            <a href="#" class="text-gray-600 hover:text-blue-600">About</a>
+            <a href="#" class="text-gray-600 hover:text-blue-600">Contact</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-bg min-h-screen flex items-center pt-16">
+        <div class="container mx-auto px-6 text-center text-white">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">Transform Your Digital Presence</h1>
+            <p class="text-xl md:text-2xl mb-8">We help businesses grow through innovative digital marketing solutions</p>
+            <button class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full text-lg font-semibold transition-all">
+                Get Started
+            </button>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-xl hover:shadow-xl transition-all">
+                    <i class="fas fa-search-dollar text-4xl text-blue-600 mb-6"></i>
+                    <h3 class="text-xl font-bold mb-4">SEO Optimization</h3>
+                    <p class="text-gray-600">Boost your search engine rankings and drive organic traffic to your website.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl hover:shadow-xl transition-all">
+                    <i class="fas fa-ad text-4xl text-blue-600 mb-6"></i>
+                    <h3 class="text-xl font-bold mb-4">Social Media Marketing</h3>
+                    <p class="text-gray-600">Engage with your audience across all major social media platforms.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl hover:shadow-xl transition-all">
+                    <i class="fas fa-chart-line text-4xl text-blue-600 mb-6"></i>
+                    <h3 class="text-xl font-bold mb-4">Content Marketing</h3>
+                    <p class="text-gray-600">Create compelling content that converts visitors into customers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="py-20 bg-blue-600 text-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">What Our Clients Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white bg-opacity-10 p-8 rounded-xl">
+                    <p class="mb-4">"DigiGrowth transformed our online presence completely. Our website traffic increased by 300% in just 3 months!"</p>
+                    <p class="font-bold">- Sarah Johnson, CEO TechCorp</p>
+                </div>
+                <div class="bg-white bg-opacity-10 p-8 rounded-xl">
+                    <p class="mb-4">"The best digital marketing agency we've worked with. Their strategies are innovative and results-driven."</p>
+                    <p class="font-bold">- Mike Chen, Founder StartUpX</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-xl font-bold mb-4">DigiGrowth</h4>
+                    <p class="text-gray-400">Transforming businesses through digital innovation since 2015</p>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-blue-500">About Us</a></li>
+                        <li><a href="#" class="hover:text-blue-500">Careers</a></li>
+                        <li><a href="#" class="hover:text-blue-500">Blog</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Services</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-blue-500">SEO</a></li>
+                        <li><a href="#" class="hover:text-blue-500">Social Media</a></li>
+                        <li><a href="#" class="hover:text-blue-500">Content Marketing</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Connect With Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-blue-500"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="hover:text-blue-500"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="hover:text-blue-500"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="hover:text-blue-500"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
